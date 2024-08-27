@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  color: black;
+}
+
+header {
+  width: 100%;
+  padding: 3em 0 0;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav-intro {
+  width: 38%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li,
+li a {
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+nav ul>section li:nth-child(1) {
+  align-self: self-start;
+}
+
+nav ul>section li:nth-child(2) {
+  display: flex;
+  gap: 1.3em;
+}
+
+.containers {
+  width: 100%;
+}
+
+.intro {
+  width: 80%;
+  margin: 5em auto 10em;
+  height: 65%;
+}
+
+.intro h3 {
+  font-size: 1.4em;
+  margin: 0 0 1.2em;
+}
+
+.intro .about {
+  font-size: 8em;
+  font-weight: 548;
+  line-height: 0.97em;
+  letter-spacing: -0.08em;
+  word-spacing: 0.12em;
+}
+
+.case-studies {
+  width: 80%;
+  margin: auto;
+  padding: 0 0 3em;
+}
+
+.part-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 3em;
+}
+
+.right {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
+}
+
+.line {
+  width: 100%;
+  height: 0.12em;
+  background-color: #000;
+}
+
+.right p {
+  font-weight: 600;
+}
+
+.part-1 h4 {
+  font-size: 1em;
+  font-weight: 560;
+}
+
+.part-1 p span {
+  margin: 0 3em 0 0;
+}
+
+.part-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.3em;
+}
+
+.img-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+.img-elem {
+  width: 100%;
+  margin: 0 1em 0 0;
+  padding: 3em 0 0 3em;
+  border-radius: 16px;
+  background-color: #e2e7ed;
+  overflow: hidden;
+}
+
+.img-elem img {
+  width: 100%;
+  height: 26em;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 14px 0 0 0;
+}
+
+.img-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-info section {
+  line-height: 1.8em;
+}
+
+.img-info button {
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 34px;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.img-info button i {
+  font-size: 1.7em;
+}
+
+.img-info button:hover {
+  background: black;
+  color: white;
+}
